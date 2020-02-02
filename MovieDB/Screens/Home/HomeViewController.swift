@@ -113,11 +113,10 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         
         cell.starButton.tag = indexPath.row
         cell.starButton.addTarget(self, action: #selector(handleFavorite), for: .touchUpInside)
+        
+        
+        
         return cell
-    }
-    
-    func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
-        print("awdawdwadwada")
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
