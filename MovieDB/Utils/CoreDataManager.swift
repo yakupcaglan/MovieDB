@@ -16,9 +16,7 @@ protocol CoreDataProtocol: class {
 }
 
 final public class CoreDataManager: CoreDataProtocol {
-    
-    static let shared = CoreDataManager()
-    
+        
     private lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
