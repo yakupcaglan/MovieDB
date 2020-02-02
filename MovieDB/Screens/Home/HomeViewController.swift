@@ -70,7 +70,7 @@ class HomeViewController: LayoutingViewController, UINavigationControllerDelegat
     private func checkNewPopulerTVShow() {
         
         
-        Timer.scheduledTimer(withTimeInterval: 4.0, repeats: true) { (timer) in
+        Timer.scheduledTimer(withTimeInterval: 60.0, repeats: true) { (timer) in
             let refreshButton = self.layoutableView.refreshButton
            
             var updateItems = self.viewModel.checkNewPopulerTvShows()
