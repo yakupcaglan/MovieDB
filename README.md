@@ -5,6 +5,6 @@
 
 ### Features
 
-- Lists populer tv show
-- Controls Popular TV Shows every 60 seconds. If the list changes, it notifies with the refresh button.
+- Lists Populer Tv Show
+- Controls Popular Tv Shows every 60 seconds. If the list changes, it notifies with the refresh button.
 - Stores your favorite list with Core Data.
